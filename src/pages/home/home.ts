@@ -13,10 +13,11 @@ export class HomePage {
 
   }
   
+  //Desabilitar menu ao entrar na pagina
   ionViewWillEnter() {
     this.menu.swipeEnable(false);
   }
-    
+  //Habilitar menu ao entrar na pagina  
   ionViewDidLeave() {
     this.menu.swipeEnable(true);
   }
